@@ -1,8 +1,7 @@
 import Header from "../components/Header";
-
 import Footer from "../components/Footer";
 
-const ResimenKadet = () => {
+const ResimenKorps = () => {
   return (
     <>
       <div>
@@ -19,16 +18,15 @@ const ResimenKadet = () => {
           >
             <div>
               <h1 className="lg:mt-18 mt-8 mb-4 text-center text-xl font-bold sm:mt-12 sm:mb-8 sm:text-2xl md:mt-16 md:mb-12 md:text-3xl lg:mb-14 lg:text-4xl xl:text-5xl">
-                RESIMEN KADET MAHASISWA
+                RESIMEN KORPS KADET MAHASISWA
               </h1>
             </div>
           </div>
         </div>
       </div>
-
       <Footer />
     </>
   );
 };
 
-export default ResimenKadet;
+export default ResimenKorps;

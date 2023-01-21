@@ -34,7 +34,7 @@ const Header = () => {
                                 <div className="ml-10 flex items-baseline space-x-4">
                                     <Link
                                         className="px-3 py-2 font-bold text-white  hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl "
-                                        href="/resimen"
+                                        to="/"
                                     >
                                         Beranda
                                     </Link>
@@ -56,7 +56,7 @@ const Header = () => {
                                                 <li className="rounded-lg transition hover:bg-white hover:text-red-900 ">
                                                     <Link
                                                         className="dropdown-item active:bg-transparent "
-                                                        href="/pages/ResimenKadet.js"
+                                                        to="/resimenkadet"
                                                     >
                                                         Resimen Kadet Mahasiswa
                                                     </Link>
@@ -64,7 +64,7 @@ const Header = () => {
                                                 <li className="rounded-lg transition hover:bg-white hover:text-red-900 ">
                                                     <Link
                                                         className="dropdown-item active:bg-transparent "
-                                                        href="/resimen"
+                                                        to="/resimenkorps"
                                                     >
                                                         Resimen Korps Kadet Mahasiswa
                                                     </Link>
@@ -74,13 +74,13 @@ const Header = () => {
                                     </div>
                                     <Link
                                         className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl"
-                                        href="/resimen"
+                                        href="/galeri"
                                     >
                                         Galeri
                                     </Link>
                                     <Link
                                         className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl"
-                                        href="/resimen"
+                                        href="/berita"
                                     >
                                         Berita
                                     </Link>
@@ -113,7 +113,7 @@ const Header = () => {
                     <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
                         <Link
                             className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
-                            href="/resimen"
+                            to="/"
                         >
                             Beranda
                         </Link>
@@ -135,7 +135,7 @@ const Header = () => {
                                     <li className="block rounded-lg transition hover:bg-white hover:text-red-900">
                                         <Link
                                             className="dropdown-item active:bg-transparent "
-                                            href="/resimen"
+                                            to="/resimenkadet"
                                         >
                                             Resimen Kadet Mahasiswa
                                         </Link>
@@ -143,7 +143,7 @@ const Header = () => {
                                     <li className="block rounded-lg transition hover:bg-white hover:text-red-900">
                                         <Link
                                             className="dropdown-item active:bg-transparent "
-                                            href="/resimen"
+                                            to="/resimenkorps"
                                         >
                                             Resimen Korps Kadet Mahasiswa
                                         </Link>
@@ -153,13 +153,13 @@ const Header = () => {
                         </div>
                         <Link
                             className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
-                            href="/resimen"
+                            href="/galeri"
                         >
                             Galeri
                         </Link>
                         <Link
                             className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
-                            href="/resimen"
+                            href="/berita"
                         >
                             Berita
                         </Link>
