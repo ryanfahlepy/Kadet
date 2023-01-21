@@ -6,10 +6,14 @@ const ResimenKadet = () => {
     <>
       <div>
         <div
-          className="relative h-96 overflow-hidden bg-cover bg-no-repeat p-12 text-center lg:h-screen"
+          className="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center h-screen"
           style={{
             backgroundImage: 'url("images/logo_menkad1.png")',
-            backgroundSize: "cover",
+            backgroundSize: "contain",
+            backgroundPosition: "center",
+            height: "500vh",
+            backgroundAttachment: "fixed"
+
           }}
         >
           <div
@@ -42,7 +46,7 @@ const ResimenKadet = () => {
   active
 " id="pills-home-tab3" data-bs-toggle="pill" data-bs-target="#pills-pokdo" role="tab" aria-controls="pills-home3"
                     aria-selected="true">
-                    Kelompok Komando
+                    KELOMPOK KOMANDO
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -63,51 +67,10 @@ const ResimenKadet = () => {
   focus:outline-none focus:ring-0
 " id="pills-profile-tab3" data-bs-toggle="pill" data-bs-target="#pills-poktaf" role="tab"
                     aria-controls="pills-profile3" aria-selected="false">
-                    Kelompok Staf
+                    KELOMPOK STAF
                   </button>
                 </li>
-                <li className="nav-item" role="presentation">
-                  <button type="button" className="
-  nav-link
-  block
-  font-medium
-  text-xs
-  leading-tight
-  uppercase
-  rounded
-  w-full
-  md:w-auto
-  px-6
-  py-3
-  my-2
-  md:ml-2
-  focus:outline-none focus:ring-0
-" id="pills-contact-tab3" data-bs-toggle="pill" data-bs-target="#pills-lemus" role="tab"
-                    aria-controls="pills-contact3" aria-selected="false">
-                    Lembaga Musyawarah
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button type="button" className="
-  nav-link
-  block
-  font-medium
-  text-xs
-  leading-tight
-  uppercase
-  rounded
-  w-full
-  md:w-auto
-  px-6
-  py-3
-  my-2
-  md:ml-2
-  focus:outline-none focus:ring-0
-" id="pills-contact-tab3" data-bs-toggle="pill" data-bs-target="#pills-polkad" role="tab"
-                    aria-controls="pills-contact3" aria-selected="false">
-                    Polisi Kadet
-                  </button>
-                </li>
+
               </ul>
               <div className="tab-content" id="pills-tabContent3">
                 <div className="tab-pane fade show active text-lg font-bold" id="pills-pokdo" role="tabpanel" aria-labelledby="pills-home-tab3">
@@ -119,12 +82,7 @@ const ResimenKadet = () => {
                 <div className="tab-pane fade" id="pills-poktaf" role="tabpanel" aria-labelledby="pills-profile-tab3">
                   KELOMPOK STAF
                 </div>
-                <div className="tab-pane fade" id="pills-lemus" role="tabpanel" aria-labelledby="pills-contact-tab3">
-                  LEMBAGA MUSYAWARAH
-                </div>
-                <div className="tab-pane fade" id="pills-polkad" role="tabpanel" aria-labelledby="pills-contact-tab3">
-                  POLISI KADET
-                </div>
+
               </div>
             </div>
           </div>

@@ -21,7 +21,7 @@ const Header = () => {
             {/* Header */}
             <nav className="bg-red-900  shadow ">
                 <div className="mx-auto max-w-7xl px-8">
-                    <div className="flex h-16 sm:h-20 md:h-28 xl:h-32 items-center justify-between">
+                    <div className="flex h-16 sm:h-20 md:h-28 xl:h-32">
                         <div className="flex w-full items-center justify-between">
                             <Link className="flex-shrink-0" href="/">
                                 <img
@@ -107,7 +107,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className="h-2 bg-yellow-500"></div>
+                <div className="h-2 bg-yellow-300"></div>
 
                 <div className={`md:hidden  ${isOpen ? "" : "hidden"}`}>
                     <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">

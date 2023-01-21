@@ -4,12 +4,16 @@ import Footer from "../components/Footer";
 const ResimenKorps = () => {
     return (
         <>
-            <div>
+            <div className="">
                 <div
-                    className="relative h-96 overflow-hidden bg-cover bg-no-repeat p-12 text-center lg:h-screen"
+                    className="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center h-screen"
                     style={{
                         backgroundImage: 'url("images/logo_menkor1.png")',
-                        backgroundSize: "cover",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
+                        height: "500vh",
+                        backgroundAttachment: "fixed"
+
                     }}
                 >
                     <div
@@ -110,11 +114,146 @@ const ResimenKorps = () => {
                                 </li>
                             </ul>
                             <div className="tab-content" id="pills-tabContent3">
-                                <div className="tab-pane fade show active text-lg font-bold" id="pills-pokdo" role="tabpanel" aria-labelledby="pills-home-tab3">
-                                    KELOMPOK KOMANDO
-                                </div>
-                                <div className="">
+                                <div className="tab-pane fade show active  pb-8" id="pills-pokdo" role="tabpanel" aria-labelledby="pills-home-tab3">
 
+                                    <div className="grid grid-cols-3">
+
+                                        <div className="col-start-2">
+                                            <img className="" src="images/3star.png">
+                                            </img>
+
+                                        </div>
+                                    </div>
+                                    {/* Pokdo Bintang 3 Start*/}
+                                    <div className="grid grid-cols-5 mx-10 lg:grid-cols-3 xl:grid-cols-9">
+                                        <div className="col-span-2 lg:col-1 lg:col-end-2 xl:col-start-2 xl:col-end-4">
+                                            <h1 className="font-semibold text-xs lg:text-xl md:text-lg">DANMENKORPS</h1>
+                                            <img src="images/danmenkor.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs lg:text-xl md:text-lg">SMDK ROY ENVITO U</h1>
+                                            <h1 className="font-medium text-xs lg:text-xl md:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-start-4 col-span-2 lg:col-start-3 xl:col-start-7 xl:col-end-9">
+                                            <h1 className="font-semibold text-xs lg:text-xl md:text-lg">WADANMENKORPS</h1>
+                                            <img src="images/wadanmenkor.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs lg:text-xl md:text-lg">SMDK RIYANTI PUTRI</h1>
+                                            <h1 className="font-medium text-xs lg:text-xl md:text-lg">KIMIA</h1>
+                                        </div>
+                                    </div>
+                                    {/* Pokdo Bintang 3 End */}
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/2star.png">
+                                            </img>
+
+                                        </div>
+                                    </div>
+                                    {/* Pokdo Bintang 2 Start*/}
+                                    <div className="grid grid-cols-3 mx-3 gap-3 md:grid-cols-6 ">
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">DANYON 1</h1>
+                                            <img src="images/danyon1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK NAUFAL AUDADI T</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK MESIN</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">DANYON 2</h1>
+                                            <img src="images/danyon2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ANGELINA DEVA A</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">FARMASI</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">DANYON 3</h1>
+                                            <img src="images/danyon3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK SANJI SATHYA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK MESIN</h1>
+                                        </div>
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WADANYON 1</h1>
+                                            <img src="images/wadanyon1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK M. REY RENOULT</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK ELEKTRO</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WADANYON 2</h1>
+                                            <img src="images/wadanyon2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ARDIMAN HASUDUNGAN</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">FISIKA</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WADANYON 3</h1>
+                                            <img src="images/wadanyon3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK NAFRIZAL FAKHRUZAIN</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">FARMASI</h1>
+                                        </div>
+                                    </div>
+
+
+                                    {/* Pokdo Bintang 2 End */}
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/1star.png">
+                                            </img>
+
+                                        </div>
+                                    </div>
+                                    {/* Pokdo Bintang 1 Start*/}
+                                    <div className="grid grid-cols-3 mx-3 gap-3 md:grid-cols-9">
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs">DANKI A1</h1>
+                                            <img src="images/dankia1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SMDK HAMAMANDA AURA D</h1>
+                                            <h1 className="font-medium text-xs">BIOLOGI</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs">DANKI B1</h1>
+                                            <img src="images/dankib1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SMDK AGUNG HIRAWAN</h1>
+                                            <h1 className="font-medium text-xs">FISIKA</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs">DANKI C1</h1>
+                                            <img src="images/dankic1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SMDK NOVRIZAL RAMADHANI</h1>
+                                            <h1 className="font-medium text-xs">MATEMATIKA</h1>
+                                        </div>
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs">DANKI A2</h1>
+                                            <img src="images/dankia2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SMDK AYUMAS QONITA S</h1>
+                                            <h1 className="font-medium text-xs">INFORMATIKA</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs">DANKI B2</h1>
+                                            <img src="images/dankib2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SMDK M. ABDITYA ARGHANIE</h1>
+                                            <h1 className="font-medium text-xs">TEKNIK ELEKTRO</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs">DANKI C2</h1>
+                                            <img src="images/dankic2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SMDK GARY FERDINAND W</h1>
+                                            <h1 className="font-medium text-xs">INFORMATIKA</h1>
+                                        </div>
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs">DANKI A3</h1>
+                                            <img src="images/dankia3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SK MORGAN ENRYO C</h1>
+                                            <h1 className="font-medium text-xs">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs">DANKI B3</h1>
+                                            <img src="images/dankib3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SK FAJRIN YUDA F</h1>
+                                            <h1 className="font-medium text-xs">FARMASI</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs">DANKI C3</h1>
+                                            <img src="images/dankic3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs">SK ABIGAIL TIFANI M</h1>
+                                            <h1 className="font-medium text-xs">INFORMATIKA</h1>
+                                        </div>
+                                    </div>
+                                    {/* Pokdo Bintang 1 End*/}
                                 </div>
                                 <div className="tab-pane fade" id="pills-poktaf" role="tabpanel" aria-labelledby="pills-profile-tab3">
                                     KELOMPOK STAF
@@ -130,7 +269,7 @@ const ResimenKorps = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+
         </>
     );
 };

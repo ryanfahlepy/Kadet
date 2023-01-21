@@ -14,9 +14,9 @@ const Footer = () => {
             <div className="mb-6 md:mb-0">
               <h5 className="mb-6 text-2xl lg:text-4xl font-bold uppercase md:text-center"   >Tentang</h5>
               <p className="mb-4 text-center text-sm sm:text-md md:text-md md:text-justify lg:text-lg ">
-                Resimen Korps Kadet UNHAN RI merupakan wadah bagi kadet mahasiswa
-                UNHAN RI untuk belajar kepemimpinan, berorganisasi, dan
-                membangun bangsa menuju Indonesia emas 2045
+                Resimen Korps Kadet Unhan RI merupakan wadah bagi kadet mahasiswa
+                Unhan RI untuk berorganisasi, belajar kepemimpinan, dan membentuk karakter serta mental kadet mahasiswa dalam
+                menyongsong Indonesia emas tahun 2045
               </p>
             </div>
 

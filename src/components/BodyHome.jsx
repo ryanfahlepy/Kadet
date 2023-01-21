@@ -65,7 +65,7 @@ const BodyHome = () => {
       </div>
 
       {/* Carousel Section Start */}
-      <div className="container mx-auto px-10 lg:px-28 xl:px-60">
+      <div className="container mx-auto px-10 lg:px-28 xl:px-72">
         <div
           id="carouselExampleCaptions"
           className="slide carousel relative"
