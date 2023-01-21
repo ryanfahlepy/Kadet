@@ -9,7 +9,7 @@ const BodyHome = () => {
 <div>
     <img className="w-full 2xl:w-full xl:w-full" src="images/background_upacara.jpg"></img>
     </div>
-    <hr className="border-t-4 border-red-900"></hr>
+    <hr className="border-t-8 border-red-900"></hr>
 
     <div>
         <h1 className="text-center font-bold text-xl mt-8 mb-4 sm:text-2xl sm:mt-12 sm:mb-8 md:text-3xl md:mt-16 md:mb-12 lg:text-4xl lg:mt-18 lg:mb-14 xl:text-5xl">KADET UNHAN</h1>
