@@ -117,7 +117,6 @@ const ResimenKorps = () => {
                                 <div className="tab-pane fade show active  pb-8" id="pills-pokdo" role="tabpanel" aria-labelledby="pills-home-tab3">
 
                                     <div className="grid grid-cols-3">
-
                                         <div className="col-start-2">
                                             <img className="" src="images/3star.png">
                                             </img>
@@ -129,7 +128,7 @@ const ResimenKorps = () => {
                                         <div className="col-span-2 lg:col-1 lg:col-end-2 xl:col-start-2 xl:col-end-4">
                                             <h1 className="font-semibold text-xs lg:text-xl md:text-lg">DANMENKORPS</h1>
                                             <img src="images/danmenkor.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs lg:text-xl md:text-lg">SMDK ROY ENVITO U</h1>
+                                            <h1 className="font-semibold text-xs lg:text-xl md:text-lg">SMDK ROY ENVITO</h1>
                                             <h1 className="font-medium text-xs lg:text-xl md:text-lg">KEDOKTERAN</h1>
                                         </div>
                                         <div className="col-start-4 col-span-2 lg:col-start-3 xl:col-start-7 xl:col-end-9">
@@ -152,13 +151,13 @@ const ResimenKorps = () => {
                                         <div className="col-1">
                                             <h1 className="font-semibold text-xs xl:text-lg">DANYON 1</h1>
                                             <img src="images/danyon1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK NAUFAL AUDADI T</h1>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK NAUFAL AUDADI</h1>
                                             <h1 className="font-medium text-xs xl:text-lg">TEKNIK MESIN</h1>
                                         </div>
                                         <div className="col-2">
                                             <h1 className="font-semibold text-xs xl:text-lg">DANYON 2</h1>
                                             <img src="images/danyon2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ANGELINA DEVA A</h1>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ANGELINA DEVA</h1>
                                             <h1 className="font-medium text-xs xl:text-lg">FARMASI</h1>
                                         </div>
                                         <div className="col-2">
@@ -201,7 +200,7 @@ const ResimenKorps = () => {
                                         <div className="col-1">
                                             <h1 className="font-semibold text-xs">DANKI A1</h1>
                                             <img src="images/dankia1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs">SMDK HAMAMANDA AURA D</h1>
+                                            <h1 className="font-semibold text-xs">SMDK HAMAMANDA AURA</h1>
                                             <h1 className="font-medium text-xs">BIOLOGI</h1>
                                         </div>
                                         <div className="col-2">
@@ -219,7 +218,7 @@ const ResimenKorps = () => {
                                         <div className="col-1">
                                             <h1 className="font-semibold text-xs">DANKI A2</h1>
                                             <img src="images/dankia2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs">SMDK AYUMAS QONITA S</h1>
+                                            <h1 className="font-semibold text-xs">SMDK AYUMAS QONITA</h1>
                                             <h1 className="font-medium text-xs">INFORMATIKA</h1>
                                         </div>
                                         <div className="col-2">
@@ -231,32 +230,164 @@ const ResimenKorps = () => {
                                         <div className="col-2">
                                             <h1 className="font-semibold text-xs">DANKI C2</h1>
                                             <img src="images/dankic2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs">SMDK GARY FERDINAND W</h1>
+                                            <h1 className="font-semibold text-xs">SMDK GARY FERDINAND</h1>
                                             <h1 className="font-medium text-xs">INFORMATIKA</h1>
                                         </div>
                                         <div className="col-1">
                                             <h1 className="font-semibold text-xs">DANKI A3</h1>
                                             <img src="images/dankia3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs">SK MORGAN ENRYO C</h1>
+                                            <h1 className="font-semibold text-xs">SK MORGAN ENRYO</h1>
                                             <h1 className="font-medium text-xs">KEDOKTERAN</h1>
                                         </div>
                                         <div className="col-2">
                                             <h1 className="font-semibold text-xs">DANKI B3</h1>
                                             <img src="images/dankib3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs">SK FAJRIN YUDA F</h1>
+                                            <h1 className="font-semibold text-xs">SK FAJRIN YUDA</h1>
                                             <h1 className="font-medium text-xs">FARMASI</h1>
                                         </div>
                                         <div className="col-2">
                                             <h1 className="font-semibold text-xs">DANKI C3</h1>
                                             <img src="images/dankic3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs">SK ABIGAIL TIFANI M</h1>
+                                            <h1 className="font-semibold text-xs">SK ABIGAIL TIFANI</h1>
                                             <h1 className="font-medium text-xs">INFORMATIKA</h1>
                                         </div>
                                     </div>
                                     {/* Pokdo Bintang 1 End*/}
                                 </div>
                                 <div className="tab-pane fade" id="pills-poktaf" role="tabpanel" aria-labelledby="pills-profile-tab3">
-                                    KELOMPOK STAF
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/2star.png">
+                                            </img>
+
+                                        </div>
+                                    </div>
+                                    {/* Pokdo Bintang 2 Start*/}
+                                    <div className="grid grid-cols-5 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-10">
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">SEKRETARIS</h1>
+                                            <img src="images/sekretaris.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK CHIQUITA JASMINE</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">BENDAHARA</h1>
+                                            <img src="images/bendahara.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK M. NURALIFFUDIN</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">FISIKA</h1>
+                                        </div>
+                                        <div className="col-3">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KASI PAM</h1>
+                                            <img src="images/kasi1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK YANDI PERMANA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">FARMASI</h1>
+                                        </div>
+                                        <div className="col-4">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KASI OPS</h1>
+                                            <img src="images/kasi2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK DAFFA MANDALA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK MESIN</h1>
+                                        </div>
+                                        <div className="col-5">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KASI PERS</h1>
+                                            <img src="images/kasi3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK RIGO GINTING</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">BIOLOGI</h1>
+                                        </div>
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WASEKRETARIS</h1>
+                                            <img src="images/wasekretaris.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK NADYA SANTI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WABENDAHARA</h1>
+                                            <img src="images/wabendahara.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK JA'FAR ELYAS</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-3">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WAKASI PAM</h1>
+                                            <img src="images/wakasi1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK SEFTIAN CANDRA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">INFORMATIKA</h1>
+                                        </div>
+                                        <div className="col-4">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WAKASI OPS</h1>
+                                            <img src="images/wakasi2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK ADRIEL REGGINALD</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-5">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WAKASI PERS</h1>
+                                            <img src="images/wakasi3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK ATHALIA CHRISTINA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">MATEMATIKA</h1>
+                                        </div>
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KASI LOG</h1>
+                                            <img src="images/kasi4.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ALLESANDRO ISSAC</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KASI OR</h1>
+                                            <img src="images/kasi5.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK YESAYA PUTRA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">MATEMATIKA</h1>
+                                        </div>
+                                        <div className="col-3">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KASI ROH</h1>
+                                            <img src="images/kasi6.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK M. SATRIA UTAMA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK MESIN</h1>
+                                        </div>
+                                        <div className="col-4">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KASI SBT</h1>
+                                            <img src="images/kasi7.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK SHAVINA TRIYANA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KIMIA</h1>
+                                        </div>
+                                        <div className="col-5">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KASI RISET</h1>
+                                            <img src="images/kasi8.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">ALFIANO DENI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">INFORMATIKA</h1>
+                                        </div>
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WAKASI LOG</h1>
+                                            <img src="images/wakasi4.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK ELVIRA ROSMAWARI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK MESIN</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WAKASI OR</h1>
+                                            <img src="images/wakasi5.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK DAMARIS EASTER</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">MATEMATIKA</h1>
+                                        </div>
+                                        <div className="col-3">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WAKASI ROH</h1>
+                                            <img src="images/wakasi6.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK M.IKHSAN ADIL</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">FARMASI</h1>
+                                        </div>
+                                        <div className="col-4">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WAKASI SBT</h1>
+                                            <img src="images/wakasi7.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK GAMELIA PUTRI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">BIOLOGI</h1>
+                                        </div>
+                                        <div className="col-5">
+                                            <h1 className="font-semibold text-xs xl:text-lg">WAKASI RISET</h1>
+                                            <img src="images/wakasi8.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK BIMO WIRATOMO</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                    </div>
+
+
+                                    {/* Pokdo Bintang 2 End */}
                                 </div>
                                 <div className="tab-pane fade" id="pills-lemus" role="tabpanel" aria-labelledby="pills-contact-tab3">
                                     LEMBAGA MUSYAWARAH
