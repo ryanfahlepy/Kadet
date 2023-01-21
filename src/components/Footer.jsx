@@ -8,45 +8,46 @@ const Footer = () => {
             <img
               src="images/logo_menkor1.png"
               alt="Logo Menkor"
-              className="mx-auto w-60"
+              className="mx-auto w-40 md:my-auto lg:w-56"
             ></img>
 
             <div className="mb-6 md:mb-0">
-              <p className="mb-4 text-center">
-                RESIMEN KORPS KADET UNHAN RI Merupakan wadah kadet mahasiswa
-                UNHAN RI dalam belajar kepemimpinan, berorganisasi, dan
+              <h5 className="mb-6 text-2xl lg:text-4xl font-bold uppercase md:text-center"   >Tentang</h5>
+              <p className="mb-4 text-center text-sm sm:text-md md:text-md md:text-justify lg:text-lg ">
+                Resimen Korps Kadet UNHAN RI merupakan wadah bagi kadet mahasiswa
+                UNHAN RI untuk belajar kepemimpinan, berorganisasi, dan
                 membangun bangsa menuju Indonesia emas 2045
               </p>
             </div>
 
             <div className="mb-6 md:mb-0">
-              <h5 className="mb-6 text-4xl font-bold uppercase">Kontak</h5>
+              <h5 className="mb-6 text-2xl lg:text-4xl font-bold uppercase md:text-center"   >Kontak</h5>
               <div className="grid grid-cols-3 gap-4">
                 <div className="flex justify-center">
-                  <img src="images/pin.png" className="h-10"></img>
+                  <img src="images/pin.png" className="h-8 my-auto"></img>
                 </div>
-                <div className="col-span-2 text-justify">
+                <div className="col-span-2 text-justify text-sm sm:text-md md:text-md lg:text-lg ">
                   <p>
                     Kawasan IPSC Sentul, Sukahati, Kabupaten Bogor, Provinsi
-                    Jawa Barat, Inonesia
+                    Jawa Barat, Indonesia
                   </p>
                 </div>
                 <div
                   className="flex justify-center
                 "
                 >
-                  <img src="images/call.png" className="h-10"></img>
+                  <img src="images/call.png" className="h-8 my-auto"></img>
                 </div>
-                <div className="col-span-2 text-justify">
+                <div className="col-span-2 text-justify text-sm sm:text-md md:text-md lg:text-lg ">
                   <p>(+62) 85161503047</p>
                 </div>
                 <div
                   className="flex justify-center
                 "
                 >
-                  <img src="images/email.png" className="h-10"></img>
+                  <img src="images/email.png" className="h-8 my-auto"></img>
                 </div>
-                <div className="col-span-2 text-justify">
+                <div className="col-span-2 text-justify text-sm sm:text-md md:text-md lg:text-lg ">
                   <p>ryanfahlepy@gmail.com</p>
                 </div>
               </div>
@@ -54,17 +55,19 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-gray-400">
-          <div className="p-4 text-center text-white">
+          <div className="p-3 text-center text-white ">
             © 2023 Resimen Korps Kadet Unhan RI
           </div>
         </div>
       </footer>
       <div
         className="
-                bg-green-500
-                sm:bg-yellow-500
-                md:bg-purple-500
-                lg:bg-red-500"
+                bg-blue-500
+                sm:bg-green-500
+                md:bg-yellow-500
+                lg:bg-orange-500
+                xl:bg-red-500"
+
       >
         Screen Width Test{" "}
       </div>

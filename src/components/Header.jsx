@@ -4,102 +4,171 @@ import { Link } from "react-router-dom";
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-
-
-    return (  
+    return (
         <>
-            <div className="
-                bg-green-500
-                sm:bg-yellow-500
-                md:bg-purple-500
-                lg:bg-red-500">
-                Screen Width Test </div>
+            <div
+                className="
+                bg-blue-500
+                sm:bg-green-500
+                md:bg-yellow-500
+                lg:bg-orange-500
+                xl:bg-red-500"
+
+            >
+                Screen Width Test{" "}
+            </div>
 
             {/* Header */}
-            <nav className="bg-red-900 dark:bg-gray-800  shadow ">
-                <div className="px-8 mx-auto max-w-7xl">
-                    <div className="flex items-center justify-between h-40">
-                        <div className="w-full justify-between flex items-center">
+            <nav className="bg-red-900  shadow ">
+                <div className="mx-auto max-w-7xl px-8">
+                    <div className="flex h-16 sm:h-20 md:h-28 xl:h-32 items-center justify-between">
+                        <div className="flex w-full items-center justify-between">
                             <Link className="flex-shrink-0" href="/">
-                                <img className="w-35 h-40" src="images/logo_menkor1.png" alt="Workflow"/>
+                                <img
+                                    className="h-16 sm:h-20 md:h-28 xl:h-32"
+                                    src="images/logo_menkor1.png"
+                                    alt="Workflow"
+                                />
                             </Link>
                             <div className="hidden md:block">
-                                <div className="flex items-baseline ml-10 space-x-4">
-                                    <Link className="text-white hover:text-yellow-300 active:text-yellow-500 focus:text-yellow-300  dark:hover:text-white px-3 py-2 md:text-base lg:text-xl font-bold " href="/resimen">
+                                <div className="ml-10 flex items-baseline space-x-4">
+                                    <Link
+                                        className="px-3 py-2 font-bold text-white  hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl "
+                                        href="/resimen"
+                                    >
                                         Beranda
                                     </Link>
                                     <div className="dropdown relative ">
-                                        <button className="text-white hover:text-yellow-300 active:text-yellow-500 focus:text-yellow-300 dark:hover:text-white px-3 py-2 md:text-base lg:text-xl font-bold " type="button"id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Resimen
+                                        <button
+                                            className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl "
+                                            type="button"
+                                            id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                        >
+                                            Struktur Organisasi
                                         </button>
                                         <div className="dropdown-menu absolute hidden">
-                                            <ul className=" rounded-lg p-2 flex flex-col space-y-4  bg-red-900 text-center text-white font-medium border-4 border-yellow-400 " aria-labelledby="dropdownMenuButton1">
-                                                <li className="rounded-lg hover:bg-white hover:text-red-900 transition ">
-                                                    <Link className="dropdown-item active:bg-transparent " href="/resimen">Resimen Kadet Mahasiswa</Link>
+                                            <ul
+                                                className=" flex flex-col space-y-4 rounded-lg border-4  border-yellow-400 bg-red-900 p-2 text-center font-medium text-white "
+                                                aria-labelledby="dropdownMenuButton1"
+                                            >
+                                                <li className="rounded-lg transition hover:bg-white hover:text-red-900 ">
+                                                    <Link
+                                                        className="dropdown-item active:bg-transparent "
+                                                        href="/pages/ResimenKadet.js"
+                                                    >
+                                                        Resimen Kadet Mahasiswa
+                                                    </Link>
                                                 </li>
-                                                <li className="rounded-lg hover:bg-white hover:text-red-900 transition ">
-                                                    <Link className="dropdown-item active:bg-transparent " href="/resimen">Resimen Korps Kadet Mahasiswa</Link>
+                                                <li className="rounded-lg transition hover:bg-white hover:text-red-900 ">
+                                                    <Link
+                                                        className="dropdown-item active:bg-transparent "
+                                                        href="/resimen"
+                                                    >
+                                                        Resimen Korps Kadet Mahasiswa
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <Link className="text-white hover:text-yellow-300 active:text-yellow-500 focus:text-yellow-300 dark:hover:text-white px-3 py-2 md:text-base lg:text-xl font-bold" href="/resimen">
+                                    <Link
+                                        className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl"
+                                        href="/resimen"
+                                    >
                                         Galeri
                                     </Link>
-                                    <Link className="text-white hover:text-yellow-300 active:text-yellow-500 focus:text-yellow-300 dark:hover:text-white px-3 py-2 md:text-base lg:text-xl font-bold" href="/resimen">
+                                    <Link
+                                        className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl"
+                                        href="/resimen"
+                                    >
                                         Berita
                                     </Link>
-                                    
                                 </div>
                             </div>
                         </div>
-                        <div className="flex -mr-2 md:hidden">
-                            <button className="text-white hover:text-yellow-300 active:text-yellow-500 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
-                            onClick={()=> setIsOpen(!isOpen)}>
-                                <svg width="20" height="20" fill="currentColor" className="w-8 h-8" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z">
-                                    </path>
+                        <div className="-mr-2 flex md:hidden">
+                            <button
+                                className="inline-flex items-center justify-center rounded-md p-2 text-white hover:text-yellow-300 focus:outline-none active:text-yellow-500"
+                                onClick={() => setIsOpen(!isOpen)}
+                            >
+                                <svg
+                                    width="20"
+                                    height="20"
+                                    fill="currentColor"
+                                    className="h-8 w-8"
+                                    viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z"></path>
                                 </svg>
                             </button>
                         </div>
                     </div>
                 </div>
 
-                <div className="h-2 bg-yellow-300"></div>
+                <div className="h-2 bg-yellow-500"></div>
 
-                <div className = {`md:hidden  ${isOpen?"":"hidden"}`} >
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <Link className="text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white block px-3 py-2 text-lg font-bold" href="/resimen">
+                <div className={`md:hidden  ${isOpen ? "" : "hidden"}`}>
+                    <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
+                        <Link
+                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
+                            href="/resimen"
+                        >
                             Beranda
                         </Link>
                         <div className="dropdown relative ">
-                                        <button className="text-white hover:text-yellow-300 active:text-yellow-500 focus:text-yellow-300 dark:hover:text-white block px-3 py-2 text-lg font-bold" type="button"id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Resimen
-                                        </button>
-                                        <div className="dropdown-menu absolute hidden">
-                                            <ul className=" rounded-lg p-2 flex flex-col space-y-4  bg-red-900 text-center text-white font-medium border-4 border-yellow-400 " aria-labelledby="dropdownMenuButton1">
-                                                <li className="rounded-lg hover:bg-white hover:text-red-900 transition block">
-                                                    <Link className="dropdown-item active:bg-transparent " href="/resimen">Resimen Kadet Mahasiswa</Link>
-                                                </li>
-                                                <li className="rounded-lg hover:bg-white hover:text-red-900 transition block">
-                                                    <Link className="dropdown-item active:bg-transparent " href="/resimen">Resimen Korps Kadet Mahasiswa</Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                        <Link className="text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white block px-3 py-2 text-lg font-bold" href="/resimen">
-                        Galeri
+                            <button
+                                className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
+                                type="button"
+                                id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Struktur Organisasi
+                            </button>
+                            <div className="dropdown-menu absolute hidden">
+                                <ul
+                                    className=" flex flex-col space-y-4 rounded-lg border-4  border-yellow-400 bg-red-900 p-2 text-center font-medium text-white "
+                                    aria-labelledby="dropdownMenuButton1"
+                                >
+                                    <li className="block rounded-lg transition hover:bg-white hover:text-red-900">
+                                        <Link
+                                            className="dropdown-item active:bg-transparent "
+                                            href="/resimen"
+                                        >
+                                            Resimen Kadet Mahasiswa
+                                        </Link>
+                                    </li>
+                                    <li className="block rounded-lg transition hover:bg-white hover:text-red-900">
+                                        <Link
+                                            className="dropdown-item active:bg-transparent "
+                                            href="/resimen"
+                                        >
+                                            Resimen Korps Kadet Mahasiswa
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <Link
+                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
+                            href="/resimen"
+                        >
+                            Galeri
                         </Link>
-                        <Link className="text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white block px-3 py-2 text-lg font-bold" href="/resimen">
-                        Berita
+                        <Link
+                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
+                            href="/resimen"
+                        >
+                            Berita
                         </Link>
                     </div>
                 </div>
             </nav>
             <header>
-
-            {/* <!-- Background image --> */}
-            {/* <div className="relative overflow-hidden bg-no-repeat bg-cover" 
+                {/* <!-- Background image --> */}
+                {/* <div className="relative overflow-hidden bg-no-repeat bg-cover" 
             style={{
                 backgroundPosition: "50%",
                 backgroundImage: "url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp')",
@@ -120,19 +189,13 @@ const Header = () => {
                 </div>
                 </div>
             </div> */}
-            {/* <!-- Background image --> */}
+                {/* <!-- Background image --> */}
             </header>
             {/* Header */}
 
             {/*  */}
-
-            
-
-
-
-            
         </>
     );
-}
- 
+};
+
 export default Header;
