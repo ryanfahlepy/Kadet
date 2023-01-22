@@ -33,14 +33,14 @@ const Header = () => {
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
                                     <Link
-                                        className="px-3 py-2 font-bold text-white  hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl "
+                                        className="px-3 py-2 font-bold text-white  hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500  md:text-base lg:text-xl "
                                         to="/"
                                     >
                                         Beranda
                                     </Link>
                                     <div className="dropdown relative ">
                                         <button
-                                            className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl "
+                                            className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500  md:text-base lg:text-xl "
                                             type="button"
                                             id="dropdownMenuButton1"
                                             data-bs-toggle="dropdown"
@@ -73,13 +73,13 @@ const Header = () => {
                                         </div>
                                     </div>
                                     <Link
-                                        className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl"
+                                        className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500  md:text-base lg:text-xl"
                                         to="/galeri"
                                     >
                                         Galeri
                                     </Link>
                                     <Link
-                                        className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl"
+                                        className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500  md:text-base lg:text-xl"
                                         to="/berita"
                                     >
                                         Berita
@@ -112,14 +112,14 @@ const Header = () => {
                 <div className={`md:hidden  ${isOpen ? "" : "hidden"}`}>
                     <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
                         <Link
-                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
+                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 "
                             to="/"
                         >
                             Beranda
                         </Link>
                         <div className="dropdown relative ">
                             <button
-                                className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
+                                className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 "
                                 type="button"
                                 id="dropdownMenuButton1"
                                 data-bs-toggle="dropdown"
@@ -152,13 +152,13 @@ const Header = () => {
                             </div>
                         </div>
                         <Link
-                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
+                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 "
                             to="/galeri"
                         >
                             Galeri
                         </Link>
                         <Link
-                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
+                            className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 "
                             to="/berita"
                         >
                             Berita

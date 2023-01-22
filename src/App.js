@@ -12,11 +12,11 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Beranda />}></Route>
-          <Route path="/resimenkadet" element={<ResimenKadet />}></Route>
-          <Route path="/resimenkorps" element={<ResimenKorps />}></Route>
-          <Route path="/galeri" element={<Galeri />}></Route>
-          <Route path="/berita" element={<Berita />}></Route>
+          <Route exact path="/" element={<Beranda />}></Route>
+          <Route exact path="/resimenkadet" element={<ResimenKadet />}></Route>
+          <Route exact path="/resimenkorps" element={<ResimenKorps />}></Route>
+          <Route exact path="/galeri" element={<Galeri />}></Route>
+          <Route exact path="/berita" element={<Berita />}></Route>
         </Routes>
       </BrowserRouter>
     </>
