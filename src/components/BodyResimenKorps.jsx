@@ -222,7 +222,7 @@ const BodyResimenKorps = () => {
                                         </div>
                                         <div className="col-2">
                                             <h1 className="font-semibold text-xs">DANKI C2</h1>
-                                            <img src="images/dankic2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <img src="images/dankic2.jpg" alt="picture" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
                                             <h1 className="font-semibold text-xs">SMDK GARY FERDINAND</h1>
                                             <h1 className="font-medium text-xs">INFORMATIKA</h1>
                                         </div>
