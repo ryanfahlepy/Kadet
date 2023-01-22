@@ -1,5 +1,3 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 const ResimenKorps = () => {
     return (
@@ -115,12 +113,10 @@ const ResimenKorps = () => {
                             </ul>
                             <div className="tab-content" id="pills-tabContent3">
                                 <div className="tab-pane fade show active  pb-8" id="pills-pokdo" role="tabpanel" aria-labelledby="pills-home-tab3">
-
                                     <div className="grid grid-cols-3">
                                         <div className="col-start-2">
                                             <img className="" src="images/3star.png">
                                             </img>
-
                                         </div>
                                     </div>
                                     {/* Pokdo Bintang 3 Start*/}
@@ -139,15 +135,15 @@ const ResimenKorps = () => {
                                         </div>
                                     </div>
                                     {/* Pokdo Bintang 3 End */}
+                                    <div className="my-10"></div>
                                     <div className="grid grid-cols-3">
                                         <div className="col-start-2">
                                             <img src="images/2star.png">
                                             </img>
-
                                         </div>
                                     </div>
                                     {/* Pokdo Bintang 2 Start*/}
-                                    <div className="grid grid-cols-3 mx-3 gap-3 md:grid-cols-6 ">
+                                    <div className="grid grid-cols-3 mx-10 gap-3 md:grid-cols-6 ">
                                         <div className="col-1">
                                             <h1 className="font-semibold text-xs xl:text-lg">DANYON 1</h1>
                                             <img src="images/danyon1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
@@ -185,18 +181,16 @@ const ResimenKorps = () => {
                                             <h1 className="font-medium text-xs xl:text-lg">FARMASI</h1>
                                         </div>
                                     </div>
-
-
                                     {/* Pokdo Bintang 2 End */}
+                                    <div className="my-10"></div>
                                     <div className="grid grid-cols-3">
                                         <div className="col-start-2">
                                             <img src="images/1star.png">
                                             </img>
-
                                         </div>
                                     </div>
                                     {/* Pokdo Bintang 1 Start*/}
-                                    <div className="grid grid-cols-3 mx-3 gap-3 md:grid-cols-9">
+                                    <div className="grid grid-cols-3 mx-10 gap-3 md:grid-cols-9">
                                         <div className="col-1">
                                             <h1 className="font-semibold text-xs">DANKI A1</h1>
                                             <img src="images/dankia1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
@@ -254,16 +248,17 @@ const ResimenKorps = () => {
                                     </div>
                                     {/* Pokdo Bintang 1 End*/}
                                 </div>
+
+                                {/* Poktaf */}
                                 <div className="tab-pane fade" id="pills-poktaf" role="tabpanel" aria-labelledby="pills-profile-tab3">
                                     <div className="grid grid-cols-3">
                                         <div className="col-start-2">
                                             <img src="images/2star.png">
                                             </img>
-
                                         </div>
                                     </div>
-                                    {/* Pokdo Bintang 2 Start*/}
-                                    <div className="grid grid-cols-5 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-10">
+                                    {/* Poktaf Bintang 2 Start*/}
+                                    <div className="grid grid-cols-5 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-60">
                                         <div className="col-1">
                                             <h1 className="font-semibold text-xs xl:text-lg">SEKRETARIS</h1>
                                             <img src="images/sekretaris.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
@@ -324,6 +319,9 @@ const ResimenKorps = () => {
                                             <h1 className="font-semibold text-xs xl:text-lg">SK ATHALIA CHRISTINA</h1>
                                             <h1 className="font-medium text-xs xl:text-lg">MATEMATIKA</h1>
                                         </div>
+                                    </div>
+                                    <div className="my-20"></div>
+                                    <div className="grid grid-cols-5 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-60">
                                         <div className="col-1">
                                             <h1 className="font-semibold text-xs xl:text-lg">KASI LOG</h1>
                                             <img src="images/kasi4.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
@@ -385,15 +383,193 @@ const ResimenKorps = () => {
                                             <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
                                         </div>
                                     </div>
-
-
-                                    {/* Pokdo Bintang 2 End */}
+                                    {/* Poktaf Bintang 2 End */}
+                                    <div className="my-10"></div>
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/1star.png">
+                                            </img>
+                                        </div>
+                                    </div>
+                                    {/* Poktaf Bintang 1 Start */}
+                                    <div className="grid grid-cols-7 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-10">
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR PROTOKOL</h1>
+                                            <img src="images/kaurprotokol.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ARYA MUDITAMA </h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">MATEMATIKA</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR HUMAS</h1>
+                                            <img src="images/kaurhumas.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK RAHMATUL FAJRI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">INFORMATIKA</h1>
+                                        </div>
+                                        <div className="col-3">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR PENMAS</h1>
+                                            <img src="images/kaurpenmas.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ABDUL AZIZ</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-4">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR KESEHATAN</h1>
+                                            <img src="images/kaurkesehatan.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK NAUFAL DIMAS</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-5">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR ADMINLOG</h1>
+                                            <img src="images/kauradminlog.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ARINI FITRIA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">FISIKA</h1>
+                                        </div>
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR BEKAL</h1>
+                                            <img src="images/kaurperbekalan.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK NOVIA SELLI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK MESIN</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR ANGKUTAN</h1>
+                                            <img src="images/kaurangkutan.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK DECINTA JAYA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">BIOLOGI</h1>
+                                        </div>
+                                        <div className="col-3">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR TRADISI</h1>
+                                            <img src="images/kaurtradisi.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ILHAM RIZKI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                        <div className="col-4">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR ISLAM</h1>
+                                            <img src="images/wakasi2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK M. IRCHAM ATAMI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK MESIN</h1>
+                                        </div>
+                                        <div className="col-5">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR PROTESTAN</h1>
+                                            <img src="images/kaurprotestan.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK MICHAEL HAM</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">FARMASI</h1>
+                                        </div>
+                                        <div className="col-1">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR KATOLIK</h1>
+                                            <img src="images/kaurkatolik.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK ADRIEL OMARPADU</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">INFORMATIKA</h1>
+                                        </div>
+                                        <div className="col-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR HINDU</h1>
+                                            <img src="images/kaurhindu.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK I KOMANG TRI</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">INFORMATIKA</h1>
+                                        </div>
+                                        <div className="col-3">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KAUR BUDDHA</h1>
+                                            <img src="images/kaurbuddha.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SK RICKY CHAN</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">INFORMATIKA</h1>
+                                        </div>
+                                    </div>
+                                    {/* Poktaf Bintang 1 End */}
                                 </div>
+
+                                {/* Lemus */}
                                 <div className="tab-pane fade" id="pills-lemus" role="tabpanel" aria-labelledby="pills-contact-tab3">
-                                    LEMBAGA MUSYAWARAH
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/3star.png">
+                                            </img>
+                                        </div>
+                                    </div>
+                                    {/* Lemus Bintang 3 Start */}
+                                    <div className="grid grid-cols-6 mx-10 lg:grid-cols-6 xl:grid-cols-10">
+                                        <div className="col-start-3 col-span-2 lg:col-start-3 xl:col-start-5 xl:col-end-7">
+                                            <h1 className="font-semibold text-xs lg:text-xl md:text-lg">KALEMUSKAD</h1>
+                                            <img src="images/kalemus.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs lg:text-xl md:text-lg">SMDK DENNISA PUTRI</h1>
+                                            <h1 className="font-medium text-xs lg:text-xl md:text-lg">BIOLOGI</h1>
+                                        </div>
+                                    </div>
+                                    {/* Lemus Bintang 3 End */}
+                                    <div className="my-10"></div>
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/2star.png">
+                                            </img>
+                                        </div>
+                                    </div>
+                                    {/* Lemus Bintang 2 Start*/}
+                                    <div className="grid grid-cols-8 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-60">
+                                        <div className="col-span-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KALEMMUS YON 1</h1>
+                                            <img src="images/wakasi6.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK PATRICYA INGGRID</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KIMIA</h1>
+                                        </div>
+                                        <div className="col-span-2 col-start-4">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KALEMMUS YON 2</h1>
+                                            <img src="images/wakasi7.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK M. WAHYU SAPUTRA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">BIOLOGI</h1>
+                                        </div>
+                                        <div className="col-span-2 col-start-7">
+                                            <h1 className="font-semibold text-xs xl:text-lg">KALEMMUS YON 3</h1>
+                                            <img src="images/wakasi8.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK RENDY CAHYA</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">INFORMATIKA</h1>
+                                        </div>
+                                    </div>
+                                    {/* Lemus Bintang 2 End */}
+                                    <div className="my-10"></div>
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/1star.png">
+                                            </img>
+                                        </div>
+                                    </div>
+                                    {/* Lemus Bintang 1 Start */}
+                                    {/* Lemus Bintang 1 End */}
                                 </div>
+
+                                {/* POLKAD */}
                                 <div className="tab-pane fade" id="pills-polkad" role="tabpanel" aria-labelledby="pills-contact-tab3">
-                                    POLISI KADET
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/2star.png">
+                                            </img>
+                                        </div>
+                                    </div>
+                                    {/* Polkad Bintang 2 Start */}
+                                    <div className="grid grid-cols-8 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-60">
+                                        <div className="col-span-2">
+                                            <h1 className="font-semibold text-xs xl:text-lg">DANPOLKAD YON 1</h1>
+                                            <img src="images/danpolkadtk3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK M. AZKA FIRDAUS</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">TEKNIK ELEKTRO</h1>
+                                        </div>
+                                        <div className="col-span-2 col-start-4">
+                                            <h1 className="font-semibold text-xs xl:text-lg">DANPOLKAD YON 2</h1>
+                                            <img src="images/danpolkadtk2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK HABBAN RIAWAN</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">MATEMATIKA</h1>
+                                        </div>
+                                        <div className="col-span-2 col-start-7">
+                                            <h1 className="font-semibold text-xs xl:text-lg">DANPOLKAD YON 3</h1>
+                                            <img src="images/danpolkadtk1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <h1 className="font-semibold text-xs xl:text-lg">SMDK CALVIN GIPSY</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">KEDOKTERAN</h1>
+                                        </div>
+                                    </div>
+                                    {/* Polkad Bintang 2 End */}
+                                    <div className="my-10"></div>
+                                    <div className="grid grid-cols-3">
+                                        <div className="col-start-2">
+                                            <img src="images/1star.png">
+                                            </img>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -74,15 +74,57 @@ const ResimenKadet = () => {
               </ul>
               <div className="tab-content" id="pills-tabContent3">
                 <div className="tab-pane fade show active text-lg font-bold" id="pills-pokdo" role="tabpanel" aria-labelledby="pills-home-tab3">
-                  KELOMPOK KOMANDO
-                </div>
-                <div className="">
-
+                  {/* Danmenkad Start */}
+                  <div className="grid grid-cols-6 mx-10 lg:grid-cols-6 xl:grid-cols-10">
+                    <div className="col-start-3 col-span-2 lg:col-start-3 xl:col-start-5 xl:col-end-7">
+                      <h1 className="font-semibold text-xs lg:text-xl md:text-lg">DANMENKAD</h1>
+                      <img src="images/danmenkor.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                      <h1 className="font-semibold text-xs lg:text-xl md:text-lg">WERIJON, M.Si.Han., CIQnR.</h1>
+                      <h1 className="font-medium text-xs lg:text-xl md:text-lg">KOLONEL (MAR)</h1>
+                    </div>
+                  </div>
+                  {/* Danmenkad End */}
+                  {/* Danyonkad Start*/}
+                  <div className="grid grid-cols-8 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-60">
+                    <div className="col-span-2">
+                      <h1 className="font-semibold text-xs xl:text-lg">DANYON 1</h1>
+                      <img src="images/danyon1.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                      <h1 className="font-semibold text-xs xl:text-lg">FATKHUL ZUHDI, S.Ag., M.Pd.I.</h1>
+                      <h1 className="font-medium text-xs xl:text-lg">LETNAN KOLONEL (INF)</h1>
+                    </div>
+                    <div className="col-span-2 col-start-4">
+                      <h1 className="font-semibold text-xs xl:text-lg">DANYON 2</h1>
+                      <img src="images/danyon2.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                      <h1 className="font-semibold text-xs xl:text-lg">KOSMOS</h1>
+                      <h1 className="font-medium text-xs xl:text-lg">LETNAN KOLONEL (ZENI)</h1>
+                    </div>
+                    <div className="col-span-2 col-start-7">
+                      <h1 className="font-semibold text-xs xl:text-lg">DANYON 3</h1>
+                      <img src="images/danyon3.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                      <h1 className="font-semibold text-xs xl:text-lg">RULLY RAMADHIANSYAH, S.Sos., M.Tr.Opsla.</h1>
+                      <h1 className="font-medium text-xs xl:text-lg">LETNAL KOLONEL (KH)</h1>
+                    </div>
+                  </div>
+                  {/* Danyonkad End */}
                 </div>
                 <div className="tab-pane fade" id="pills-poktaf" role="tabpanel" aria-labelledby="pills-profile-tab3">
-                  KELOMPOK STAF
+                  {/* Poktaf Start*/}
+                  <div className="grid grid-cols-8 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-60">
+                    <div className="col-span-2 col-start-2">
+                      <h1 className="font-semibold text-xs xl:text-lg">KASIPAMOPS</h1>
+                      <img src="images/wakasi6.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                      <h1 className="font-semibold text-xs xl:text-lg">TOTO SUTIADI, S.Sos., M.Han</h1>
+                      <h1 className="font-medium text-xs xl:text-lg">MAYOR (CPM)</h1>
+                    </div>
+                    <div className="col-span-2 col-start-6">
+                      <h1 className="font-semibold text-xs xl:text-lg">KASIMINLOG</h1>
+                      <img src="images/wakasi7.jpg" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                      <h1 className="font-semibold text-xs xl:text-lg">M. TEGUH IMAM CAHYADI</h1>
+                      <h1 className="font-medium text-xs xl:text-lg">MAYOR (INF)</h1>
+                    </div>
+                  </div>
+                  {/* Poktaf End */}
                 </div>
-
               </div>
             </div>
           </div>

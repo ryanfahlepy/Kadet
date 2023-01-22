@@ -15,7 +15,7 @@ const Header = () => {
                 xl:bg-red-500"
 
             >
-                Screen Width Test{" "}
+                Screen Width Test{""}
             </div>
 
             {/* Header */}
@@ -25,8 +25,8 @@ const Header = () => {
                         <div className="flex w-full items-center justify-between">
                             <Link className="flex-shrink-0" href="/">
                                 <img
-                                    className="h-16 sm:h-20 md:h-28 xl:h-32"
-                                    src="images/logo_menkor1.png"
+                                    className="h-20 sm:h-28 md:h-32 xl:h-40"
+                                    src="images/logo.png"
                                     alt="Workflow"
                                 />
                             </Link>
@@ -74,13 +74,13 @@ const Header = () => {
                                     </div>
                                     <Link
                                         className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl"
-                                        href="/galeri"
+                                        to="/galeri"
                                     >
                                         Galeri
                                     </Link>
                                     <Link
                                         className="px-3 py-2 font-bold text-white hover:text-yellow-300 focus:text-yellow-300 active:text-yellow-500 dark:hover:text-white md:text-base lg:text-xl"
-                                        href="/berita"
+                                        to="/berita"
                                     >
                                         Berita
                                     </Link>
@@ -153,13 +153,13 @@ const Header = () => {
                         </div>
                         <Link
                             className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
-                            href="/galeri"
+                            to="/galeri"
                         >
                             Galeri
                         </Link>
                         <Link
                             className="block px-3 py-2 text-lg font-bold text-white hover:text-yellow-300 active:text-yellow-500 dark:hover:text-white"
-                            href="/berita"
+                            to="/berita"
                         >
                             Berita
                         </Link>
