@@ -30,7 +30,7 @@ const BodyGaleri = () => {
                             <img
                                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
                                 className="block w-full"
-                                alt="..."
+                                alt="slide"
                             />
                             <div className="carousel-caption hidden md:block absolute text-center">
                                 <h5 className="text-xl">First slide label</h5>
@@ -41,7 +41,7 @@ const BodyGaleri = () => {
                             <img
                                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
                                 className="block w-full"
-                                alt="..."
+                                alt="slide"
                             />
                             <div className="carousel-caption hidden md:block absolute text-center">
                                 <h5 className="text-xl">Second slide label</h5>
@@ -52,7 +52,7 @@ const BodyGaleri = () => {
                             <img
                                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
                                 className="block w-full"
-                                alt="..."
+                                alt="slide"
                             />
                             <div className="carousel-caption hidden md:block absolute text-center">
                                 <h5 className="text-xl">Third slide label</h5>

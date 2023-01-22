@@ -5,6 +5,7 @@ const BodyHome = () => {
         <img
           className="w-full xl:w-full 2xl:w-full"
           src="images/background_upacara.jpg"
+          alt="upacara"
         ></img>
       </div>
       <div className="h-2 bg-red-900"></div>
@@ -35,14 +36,17 @@ const BodyHome = () => {
         <img
           className="2xl:py-18 py-6 px-4 md:px-12 lg:px-20 xl:py-16 xl:px-32 2xl:px-40"
           src="images/prajurit_kadet.png"
+          alt="tk1"
         ></img>
         <img
           className="2xl:py-18 py-6 px-4 md:px-12 lg:px-20 xl:py-16 xl:px-32 2xl:px-40"
           src="images/sersan_kadet.png"
+          alt="tk2"
         ></img>
         <img
           className="2xl:py-18 py-6 px-4 md:px-12 lg:px-20 xl:py-16 xl:px-32 2xl:px-40"
           src="images/sersan_mayor_dua_kadet.png"
+          alt="tk3"
         ></img>
       </div>
       <div className="grid grid-flow-row grid-cols-3">
@@ -74,7 +78,7 @@ const BodyHome = () => {
 
           <div className="carousel-inner relative w-full overflow-hidden">
             <div className="active carousel-item relative float-left w-full">
-              <img src="images/prabowo.jpeg" className="block w-full" alt="..." />
+              <img src="images/prabowo.jpeg" className="block w-full" alt="prabowo" />
               <div className="h-24 md:h-40">
                 <p className="text-center font-medium text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
                   Jadilah pemimpin-pemimpin yang baik di masa depan dengan otak yang cemerlang harus
@@ -86,7 +90,7 @@ const BodyHome = () => {
               </div>
             </div>
             <div className="carousel-item relative float-left w-full">
-              <img src="images/rektor.png" className="block w-full" alt="..." />
+              <img src="images/rektor.png" className="block w-full" alt="rektor" />
               <div className="h-24 md:h-40">
                 <p className="text-center font-medium text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
                   Kadet Mahasiswa Unhan RI harus
@@ -101,7 +105,7 @@ const BodyHome = () => {
               </div>
             </div>
             <div className="carousel-item relative float-left w-full">
-              <img src="images/werijon.png" className="block w-full" alt="..." />
+              <img src="images/werijon.png" className="block w-full" alt="danmenkad" />
               <div className="h-24 md:h-40">
                 <p className="text-center font-medium text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl">
                   Jika kadet tersiksa, maka didikan
