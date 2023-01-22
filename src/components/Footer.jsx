@@ -1,3 +1,8 @@
+import { Link } from "react-router-dom";
+import { FaInstagram } from "react-icons/fa"
+import { FaYoutube } from "react-icons/fa"
+import { FaTiktok } from "react-icons/fa"
+
 const Footer = () => {
   return (
     <>
@@ -24,7 +29,7 @@ const Footer = () => {
               <h5 className="mb-6 text-2xl lg:text-4xl font-bold uppercase md:text-center"   >Kontak</h5>
               <div className="grid grid-cols-3 gap-4">
                 <div className="flex justify-center">
-                  <img src="images/pin.png" className="h-8 my-auto" alt="location"></img>
+                  <img src="images/pin.png" className="h-8 my-auto hover:scale-150 transition duration-200 ease-in-out" alt="location"></img>
                 </div>
                 <div className="col-span-2 text-justify text-sm sm:text-md md:text-md lg:text-lg ">
                   <p>
@@ -36,7 +41,7 @@ const Footer = () => {
                   className="flex justify-center
                 "
                 >
-                  <img src="images/call.png" className="h-8 my-auto" alt="call"></img>
+                  <img src="images/call.png" className="h-8 my-auto hover:scale-150 transition duration-200 ease-in-out" alt="call"></img>
                 </div>
                 <div className="col-span-2 text-justify text-sm sm:text-md md:text-md lg:text-lg ">
                   <p>(+62) 85161503047</p>
@@ -45,7 +50,7 @@ const Footer = () => {
                   className="flex justify-center
                 "
                 >
-                  <img src="images/email.png" className="h-8 my-auto" alt="email"></img>
+                  <img src="images/email.png" className="h-8 my-auto hover:scale-150 transition duration-200 ease-in-out" alt="email"></img>
                 </div>
                 <div className="col-span-2 text-justify text-sm sm:text-md md:text-md lg:text-lg ">
                   <p>ryanfahlepy@gmail.com</p>
@@ -54,7 +59,21 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400">
+        <div className="flex w-full justify-center">
+          <div className="pb-8 md:pb-10 mx-8" style={{ display: "grid", placeItems: 'center' }} >
+            <a className="hover:scale-150 transition duration-200 ease-in-out" style={{ color: "#fff", fontSize: "40px", }} target={"_blank"} href="https://www.youtube.com/@RESIMENKORPSKADETMAHASISWA"><FaYoutube />
+            </a>
+          </div>
+          <div className="pb-8 md:pb-10 mx-8" style={{ display: "grid", placeItems: 'center' }} >
+            <a className="hover:scale-150 transition duration-200 ease-in-out" style={{ color: "#fff", fontSize: "40px" }} target={"_blank"} href="https://www.instagram.com/unhanri.menkorps"><FaInstagram />
+            </a>
+          </div>
+          <div className="pb-8 md:pb-10 mx-8" style={{ display: "grid", placeItems: 'center' }} >
+            <a className="hover:scale-150 transition duration-200 ease-in-out" style={{ color: "#fff", fontSize: "40px", }} target={"_blank"} href="https://www.tiktok.com/@unhanri.menkorps"><FaTiktok />
+            </a>
+          </div>
+        </div>
+        <div className="bg-zinc-500">
           <div className="p-3 text-center text-white ">
             © 2023 Resimen Korps Kadet Unhan RI
           </div>
