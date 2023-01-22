@@ -15,17 +15,17 @@ const Header = () => {
                 xl:bg-red-500"
 
             >
-                Screen Width Test{""}
+                Screen Width Test{" "}
             </div>
 
             {/* Header */}
             <nav className="bg-red-900  shadow ">
-                <div className="mx-auto max-w-7xl px-8">
-                    <div className="flex h-16 sm:h-20 md:h-28 xl:h-32">
+                <div className="mx-2 max-w-full px-4 lg:px-6 xl:px-20">
+                    <div className="flex h-18 sm:h-20 md:h-28 xl:h-32">
                         <div className="flex w-full items-center justify-between">
-                            <Link className="flex-shrink-0" href="/">
+                            <Link className="flex-shrink-0" to="/">
                                 <img
-                                    className="h-20 sm:h-28 md:h-32 xl:h-40"
+                                    className="h-16 sm:h-20 md:h-28 xl:h-32"
                                     src="images/logo.png"
                                     alt="Workflow"
                                 />
