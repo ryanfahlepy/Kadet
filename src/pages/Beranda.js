@@ -1,5 +1,6 @@
 import BodyHome from "../components/BodyHome";
 import Footer from "../components/Footer";
+import Program from "../components/Program";
 import { TabTitle } from "../utilities/Title";
 
 const Beranda = () => {
@@ -7,7 +8,10 @@ const Beranda = () => {
   return (
     <>
       <BodyHome />
+      <Program />
       <Footer />
+
+
     </>
   );
 };
