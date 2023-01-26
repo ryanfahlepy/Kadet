@@ -67,8 +67,13 @@ const BodyGaleri = () => {
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                <div>
+                    <h1 className="lg:mt-24 mt-8 text-center text-xl font-bold sm:mt-12 sm:mb-8 sm:text-2xl md:mt-16 md:mb-12 md:text-3xl lg:text-4xl xl:text-5xl">
+                        Foto Terbaru
+                    </h1>
+                </div>
                 <section className="overflow-hidden text-gray-700">
-                    <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+                    <div className="container px-5 py-2 mx-auto lg:pt-4 lg:px-32">
                         <div className="flex flex-wrap -m-1 md:-m-2">
                             <div className="flex flex-wrap w-1/2">
                                 <div className="w-1/2 p-1 md:p-2">
