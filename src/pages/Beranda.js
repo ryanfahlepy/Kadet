@@ -10,8 +10,6 @@ const Beranda = () => {
       <BodyHome />
       <Program />
       <Footer />
-
-
     </>
   );
 };

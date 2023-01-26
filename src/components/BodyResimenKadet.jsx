@@ -81,6 +81,7 @@ const BodyResimenKadet = () => {
                                         </div>
                                     </div>
                                     {/* Danmenkad End */}
+                                    <div className=" my-20"></div>
                                     {/* Danyonkad Start*/}
                                     <div className="grid grid-cols-8 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-60">
                                         <div className="col-span-2">
@@ -99,7 +100,7 @@ const BodyResimenKadet = () => {
                                             <h1 className="font-semibold text-xs xl:text-lg">DANYON 3</h1>
                                             <img src="images/danyon3.jpg" alt="danyon3" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
                                             <h1 className="font-semibold text-xs xl:text-lg">RULLY RAMADHIANSYAH, S.Sos., M.Tr.Opsla.</h1>
-                                            <h1 className="font-medium text-xs xl:text-lg">LETNAL KOLONEL (KH)</h1>
+                                            <h1 className="font-medium text-xs xl:text-lg">LETNAN KOLONEL (KH)</h1>
                                         </div>
                                     </div>
                                     {/* Danyonkad End */}
