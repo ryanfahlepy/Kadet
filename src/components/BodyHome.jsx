@@ -8,13 +8,13 @@ const BodyHome = () => {
           data-bs-ride="carousel"
         >
           <div class="carousel-inner relative w-full overflow-hidden">
-            <div class="carousel-item active float-left w-full">
+            {/* <div class="carousel-item active float-left w-full">
               <img
                 src="images/background_upacara.jpg"
                 class="block w-full"
                 alt="Wild Landscape"
               />
-            </div>
+            </div> */}
             <div class="carousel-item float-left w-full">
               <video class="w-full shadow-lg" autoplay loop controls>
                 <source src="videos/video_home.mp4" type="video/mp4" />
