@@ -18,12 +18,12 @@
     border-color: transparent;
 }
 .nav-tabs .nav-link.active {
-    color: rgb(127, 29, 29);
-    border-color: rgb(127, 29, 29);
+    color: rgb(153, 27, 27);
+    border-color: rgb(153, 27, 27);
 }
 .nav-tabs .nav-item.show .nav-link {
-    color: rgb(127, 29, 29);
-    border-color: rgb(127, 29, 29);
+    color: rgb(153, 27, 27);
+    border-color: rgb(153, 27, 27);
 }
 .nav-pills .nav-link {
     background: rgb(243, 244, 246);
@@ -31,12 +31,12 @@
     box-shadow: none;
 }
 .nav-pills .nav-link.active {
-    background: rgb(127, 29, 29);
+    background: rgb(153, 27, 27);
     color: #fff;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 .nav-pills .show > .nav-link {
-    background: rgb(127, 29, 29);
+    background: rgb(153, 27, 27);
     color: #fff;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
