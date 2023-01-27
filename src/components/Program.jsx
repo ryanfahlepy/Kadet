@@ -42,7 +42,7 @@ const Program = () => {
                         </div>
                     </div>
                     <div class="flex flex-col lg:flex-row-reverse lg:w-full rounded-lg lg:col-span-3 bg-white shadow-xl">
-                        <img class=" w-full object-cover lg:w-1/2 rounded-r-lg rounded-l-lg" src="assets/military.jpg" alt="militer" />
+                        <img class=" w-full object-cover lg:w-1/2 rounded-r-lg rounded-l-lg" src="assets/military.JPG" alt="militer" />
                         <div class="p-6 flex flex-col justify-start">
                             <h5 class="text-gray-900 text-xl lg:text-2xl font-bold mb-2">Kepemimpinan Militer</h5>
                             <p class="text-gray-700 text-base lg:text-lg mb-4">
