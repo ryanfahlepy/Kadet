@@ -93,7 +93,7 @@ const BodyResimenKadet = () => {
                                         <div className="col-span-2 col-start-4">
                                             <h1 className="font-semibold text-xs xl:text-lg">DANYON 2</h1>
                                             <img src="images/danyon2.JPG" alt="danyon2" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
-                                            <h1 className="font-semibold text-xs xl:text-lg">KOSMOS</h1>
+                                            <h1 className="font-semibold text-xs xl:text-lg">KOSMAS</h1>
                                             <h1 className="font-medium text-xs xl:text-lg">LETNAN KOLONEL (ZENI)</h1>
                                         </div>
                                         <div className="col-span-2 col-start-7">
