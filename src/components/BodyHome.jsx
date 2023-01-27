@@ -8,43 +8,12 @@ const BodyHome = () => {
           data-bs-ride="carousel"
         >
           <div class="carousel-inner relative w-full overflow-hidden">
-            {/* <div class="carousel-item active float-left w-full">
-              <img
-                src="images/background_upacara.jpg"
-                class="block w-full"
-                alt="Wild Landscape"
-              />
-            </div> */}
-            <div class="carousel-item float-left w-full">
+            <div class="carousel-item active float-left w-full">
               <video class="w-full shadow-lg" autoplay loop controls>
                 <source src="videos/home_video.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
-          <button
-            class="carousel-control-prev absolute top-0 bottom-0 left-0 flex items-center justify-center border-0 p-0 text-center hover:no-underline hover:outline-none focus:no-underline focus:outline-none"
-            type="button"
-            data-bs-target="#carouselExampleCrossfade"
-            data-bs-slide="prev"
-          >
-            <span
-              class="carousel-control-prev-icon inline-block bg-no-repeat"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next absolute top-0 bottom-0 right-0 flex items-center justify-center border-0 p-0 text-center hover:no-underline hover:outline-none focus:no-underline focus:outline-none"
-            type="button"
-            data-bs-target="#carouselExampleCrossfade"
-            data-bs-slide="next"
-          >
-            <span
-              class="carousel-control-next-icon inline-block bg-no-repeat"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
       <div className="h-2 bg-red-900"></div>
