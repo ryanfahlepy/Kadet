@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
 import Beranda from "./pages/Beranda";
 import ResimenKadet from "./pages/ResimenKadet";
 import ResimenKorps from "./pages/ResimenKorps";
@@ -10,7 +9,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
         <Routes>
           <Route exact path="/" element={<Beranda />}></Route>
           <Route exact path="/resimenkadet" element={<ResimenKadet />}></Route>

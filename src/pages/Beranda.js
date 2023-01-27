@@ -1,3 +1,4 @@
+import Header from "../components/Header";
 import BodyHome from "../components/BodyHome";
 import Footer from "../components/Footer";
 import Program from "../components/Program";
@@ -7,6 +8,7 @@ const Beranda = () => {
   TabTitle('Beranda - Kadet')
   return (
     <>
+      <Header />
       <BodyHome />
       <Program />
       <Footer />
