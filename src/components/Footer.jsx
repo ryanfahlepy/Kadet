@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="container p-6 text-white mx-auto">
           <div className="grid gap-4 md:grid-cols-3">
             <img
-              src="images/logo_menkor1.png"
+              src="images/logo_menkad.png"
               alt="logo"
-              className="mx-auto w-40 md:my-auto lg:w-56"
+              className="mx-auto w-28 md:my-auto lg:w-40"
             ></img>
 
             <div className="mb-6 md:mb-0">
