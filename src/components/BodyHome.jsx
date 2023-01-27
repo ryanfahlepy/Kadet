@@ -4,12 +4,12 @@ const BodyHome = () => {
       <div>
         <div
           id="carouselExampleCrossfade"
-          class="slide carousel carousel-fade relative transition-transform"
+          className="slide carousel carousel-fade relative transition-transform"
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner relative w-full overflow-hidden">
-            <div class="carousel-item active float-left w-full">
-              <video class="w-full shadow-lg" autoplay playsInline loop controls>
+          <div className="carousel-inner relative w-full overflow-hidden">
+            <div className="carousel-item active float-left w-full">
+              <video className="w-full shadow-lg" autoplay playsInline loop controls>
                 <source src="videos/home_video.mp4" type="video/mp4" />
               </video>
             </div>
