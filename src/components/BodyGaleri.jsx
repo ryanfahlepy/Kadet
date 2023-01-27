@@ -28,7 +28,7 @@ const BodyGaleri = () => {
                     <div class="carousel-inner relative w-full overflow-hidden">
                         <div class="carousel-item active float-left w-full">
                             <img
-                                src="assets/4.jpg"
+                                src="assets/4.JPG"
                                 class="block w-full"
                                 alt="Wild Landscape"
                             />
