@@ -110,13 +110,13 @@ const BodyResimenKadet = () => {
                                     <div className="grid grid-cols-8 mx-2 gap-2 gap-y-6 md:gap-3 md:mx-3 lg:gap-6 lg:mx-6 xl:gap-10 xl:mx-60">
                                         <div className="col-span-2 col-start-2">
                                             <h1 className="font-semibold text-xs xl:text-lg">KASIPAMOPS</h1>
-                                            <img src="images/wakasi6.JPG" alt="picture" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <img src="images/profile_pic.jpg" alt="picture" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
                                             <h1 className="font-semibold text-xs xl:text-lg">TOTO SUTIADI, S.Sos., M.Han</h1>
                                             <h1 className="font-medium text-xs xl:text-lg">MAYOR (CPM)</h1>
                                         </div>
                                         <div className="col-span-2 col-start-6">
                                             <h1 className="font-semibold text-xs xl:text-lg">KASIMINLOG</h1>
-                                            <img src="images/wakasi7.JPG" alt="picture" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
+                                            <img src="images/profile_pic.jpg" alt="picture" style={{ borderRadius: "25% 0% 25% 0%" }}></img>
                                             <h1 className="font-semibold text-xs xl:text-lg">M. TEGUH IMAM CAHYADI</h1>
                                             <h1 className="font-medium text-xs xl:text-lg">MAYOR (INF)</h1>
                                         </div>
