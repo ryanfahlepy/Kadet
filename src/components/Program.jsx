@@ -5,9 +5,6 @@ const Program = () => {
                 <h1 className="lg:mt-18 mt-8 mb-4 text-center text-xl font-bold sm:mt-12 sm:mb-8 sm:text-2xl md:mt-16 md:mb-12 md:text-3xl lg:mb-14 lg:text-4xl xl:text-5xl">
                     PROGRAM
                 </h1>
-                <h2 className="lg:mt-4 mt-2 mb-2 text-center text-sm font-normal sm:mt-12 sm:mb-8 sm:text-sm md:mt-16 md:mb-12 md:text-md lg:mb-12 lg:text-lg xl:text-xl">
-                    Kadet Mahasiswa dididik dan dilatih dengan program pembinaan karakter, akademik, fisik, dan militer.
-                </h2>
             </div>
             <div>
                 <div class="justify-center grid lg:grid-cols-4 grid-cols-1 gap-6 mx-8">
