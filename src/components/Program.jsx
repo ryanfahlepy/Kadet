@@ -9,7 +9,7 @@ const Program = () => {
             <div>
                 <div class="justify-center grid lg:grid-cols-4 grid-cols-1 gap-6 mx-8">
                     <div class="flex flex-col lg:flex-row lg:w-full rounded-lg lg:col-span-3 lg:col-start-2 bg-white shadow-xl">
-                        <img class=" w-full object-cover lg:w-1/2 rounded-r-lg rounded-l-lg" src="assets/1.JPG" alt="karakter" />
+                        <img class=" w-full object-cover lg:w-1/2 rounded-r-lg rounded-l-lg" src="assets/character.JPG" alt="karakter" />
                         <div class="p-6 flex flex-col justify-start">
                             <h5 class="text-gray-900 text-xl lg:text-2xl font-bold mb-2">Pengembangan Karakter</h5>
                             <p class="text-gray-700 text-base lg:text-lg mb-4">
@@ -19,7 +19,7 @@ const Program = () => {
                         </div>
                     </div>
                     <div class="flex flex-col lg:flex-row-reverse lg:w-full rounded-lg lg:col-span-3 bg-white shadow-xl">
-                        <img class=" w-full object-cover lg:w-1/2 rounded-r-lg rounded-l-lg" src="assets/physical.JPG" alt="akademik" />
+                        <img class=" w-full object-cover lg:w-1/2 rounded-r-lg rounded-l-lg" src="assets/academic.JPG" alt="akademik" />
                         <div class="p-6 flex flex-col justify-start">
                             <h5 class="text-gray-900 text-xl lg:text-2xl font-bold mb-2">Keunggulan Akademik</h5>
                             <p class="text-gray-700 text-base lg:text-lg mb-4">
