@@ -1,7 +1,7 @@
 const BodyResimenKadet = () => {
     return (
         <>
-            <div>
+            <div className="pt-20">
                 <div
                     className="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center h-screen"
                     style={{

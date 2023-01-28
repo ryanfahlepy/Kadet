@@ -9,7 +9,7 @@ const BodyHome = () => {
         >
           <div className="carousel-inner relative w-full overflow-hidden">
             <div className="carousel-item active float-left w-full">
-              <video className="w-full shadow-lg" autoplay playsInline loop controls>
+              <video autoPlay playsInline loop controls muted>
                 <source src="videos/home_video.mp4" type="video/mp4" />
               </video>
             </div>

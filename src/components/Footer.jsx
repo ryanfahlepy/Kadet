@@ -73,7 +73,10 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="bg-zinc-500">
+        <div className="center px-16 lg:px-32">
+          <div className="h-1 bg-white"></div>
+        </div>
+        <div className="">
           <div className="p-3 text-center text-white ">
             © 2023 Resimen Korps Kadet Unhan RI
           </div>
